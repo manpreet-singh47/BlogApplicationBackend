@@ -29,12 +29,12 @@ const Read = async (req, res) => {
   }
 };
 
-const Update = async (req, res) => {
-  const { title, description } = req.body;
-  try {
-  } catch (error) {}
-  // If user exists, update the user
-};
+// const Update = async (req, res) => {
+//   const { title, description } = req.body;
+//   try {
+//   } catch (error) {}
+//   // If user exists, update the user
+// };
 
 const Delete = async (req, res) => {
   try {
@@ -48,4 +48,4 @@ const Delete = async (req, res) => {
   }
 };
 
-module.exports = { Create, Read, Update, Delete };
+module.exports = { Create, Read, Delete };
